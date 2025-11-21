@@ -1,0 +1,25 @@
+Package: DynPACE
+Title: Dynamic  Cox and RMST Prediction Model with PACE Method
+Version: 0.1.0
+Authors@R: 
+    c(person("Jiaqiao", "Ren", email = "992674255@qq.com", role = "aut"),
+    person("Zheng", "Chen", email = "zheng-chen@hotmail.com", role = "cre"))
+Maintainer: Zheng Chen <zheng-chen@hotmail.com>
+Description: Implements a dynamic prediction framework combining landmark analysis
+    with Principal Analysis by Conditional Expectation (PACE) to more accurately
+    impute irregularly measured continuous time-varying covariates. Provides
+    modeling approaches for both dynamic Cox and dynamic RMST models and
+    generates personalized dynamic risk prediction curves for individual
+    patients based on the fitted models.
+License: GPL-3
+Encoding: UTF-8
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Imports: 
+    dynpred,
+    fdapace,
+    geepack,
+    pseudo,
+    survival
+RoxygenNote: 7.3.2

@@ -5,11 +5,11 @@ An R package for dynamic prediction in survival analysis, implementing a framewo
 
 ## Installation
 
-You can install the development version of DynPACE from [GitHub](https://github.com/chengzhengzhi/DynPACE) with:
+You can install the development version of DynPACE from [GitHub](https://github.com/chenzgz/DynPACE) with:
 
 ```r
 # install.packages("devtools")
-devtools::install_github("chengzhengzhi/DynPACE")
+devtools::install_github("chenzgz/DynPACE")
 ```
 
 ## Main Functions
